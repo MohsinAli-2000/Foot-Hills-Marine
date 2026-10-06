@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en" class="fh-no-topbar">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="A beginner’s guide to aids to navigation — red, right, returning, buoy shapes and numbers, and how to read a channel safely before you enter new water.">
+    <meta name="author" content="Foothills Marine">
+    <title>Reading Buoys, Markers &amp; Channel Signs | Foothills Marine</title>
+
+    <!-- ======= Bootstrap CSS ======= -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- ======= Owl Carousel CSS ======= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        referrerpolicy="no-referrer">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        referrerpolicy="no-referrer">
+
+    <!-- ======= Fancybox CSS ======= -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ======= Custom Styles ======= -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header class="fh-header">
+
+        <!-- ---- main navigation ---- -->
+        <div class="fh-navbar">
+            <div class="fh-container fh-navbar__inner">
+                <a id="home-foothills-marine-center" class="fh-navbar__logo" href="./home.html">
+                    <img src="./assets/images/common/logo-foothills-marine.png" alt="Foothills Marine Center"
+                        width="183" height="80">
+                </a>
+
+                <nav class="fh-nav" aria-label="Main">
+                    <div class="fh-nav__item fh-nav__item--static">
+                        <button id="home-inventory" class="fh-nav__link js-mega-trigger" type="button" aria-expanded="false"
+                            aria-controls="fh-mega-inventory">Inventory</button>
+
+                        <div class="fh-mega" id="fh-mega-inventory" hidden>
+                            <div class="fh-container">
+                                <div class="fh-mega__body">
+                                    <div class="fh-mega__column">
+                                        <p class="fh-menu-label">Shop by condition</p>
+                                        <ul class="fh-menu-list">
+                                            <li><a id="home-new-boats" class="fh-menu-link" href="javascript:void(0)">New boats</a></li>
+                                            <li><a id="home-pre-owned" class="fh-menu-link" href="javascript:void(0)">Pre-Owned</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="fh-mega__column">
+                                        <p class="fh-menu-label">Buy &amp; Sell</p>
+                                        <ul class="fh-menu-list">
+                                            <li><a id="home-sell-trade" class="fh-menu-link" href="./sell-trade.html">Sell/Trade</a></li>
+                                            <li><a id="home-financing" class="fh-menu-link" href="./financing.html">Financing</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="fh-mega__brands">
+                                        <p class="fh-menu-label">Shop by brand</p>
+                                        <ul class="fh-mega__brand-list">
+                                            <li><a id="home-sportsman" class="fh-logo-tile fh-logo-tile--small" href="./brand-sportsman.html"><img src="./assets/images/common/brand-logo-sportsman.png" alt="Sportsman" width="100" height="8"></a></li>
+                                            <li><a id="home-sun-tracker" class="fh-logo-tile fh-logo-tile--small" href="javascript:void(0)"><img src="./assets/images/common/brand-logo-sun-tracker.png" alt="Sun Tracker" width="100" height="34"></a></li>
+                                            <li><a id="home-premier-pontoons" class="fh-logo-tile fh-logo-tile--small" href="javascript:void(0)"><img src="./assets/images/common/brand-logo-premier.png" alt="Premier Pontoons" width="65" height="40"></a></li>
+                                            <li><a id="home-tidewater" class="fh-logo-tile fh-logo-tile--small" href="javascript:void(0)"><img src="./assets/images/common/brand-logo-tidewater.png" alt="Tidewater" width="100" height="30"></a></li>
+                                            <li><a id="home-tracker-boats" class="fh-logo-tile fh-logo-tile--small" href="javascript:void(0)"><img src="./assets/images/common/brand-logo-tracker.png" alt="Tracker Boats" width="100" height="25"></a></li>
+                                            <li><a id="home-tahoe-pontoons" class="fh-logo-tile fh-logo-tile--small" href="javascript:void(0)"><img src="./assets/images/common/brand-logo-tahoe.png" alt="Tahoe Pontoons" width="100" height="7"></a></li>
+                                            <li><a id="home-godfrey" class="fh-logo-tile fh-logo-tile--small" href="javascript:void(0)"><img src="./assets/images/common/brand-logo-godfrey.png" alt="Godfrey" width="100" height="15"></a></li>
+                                            <li><a id="home-phoenix" class="fh-logo-tile fh-logo-tile--small" href="javascript:void(0)"><img src="./assets/images/common/brand-logo-phoenix.png" alt="Phoenix" width="100" height="16"></a></li>
+                                            <li><a id="home-skeeter" class="fh-logo-tile fh-logo-tile--small" href="javascript:void(0)"><img src="./assets/images/common/brand-logo-skeeter.png" alt="Skeeter" width="100" height="29"></a></li>
+                                            <li><a id="home-nitro" class="fh-logo-tile fh-logo-tile--small" href="javascript:void(0)"><img src="./assets/images/common/brand-logo-nitro.png" alt="Nitro" width="100" height="13"></a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="fh-menu-card fh-mega__card">
+                                        <p class="fh-eyebrow">Test ride experience</p>
+                                        <p class="fh-heading-card">Schedule a<br>Test Ride</p>
+                                        <p class="fh-menu-card__text">Get behind the wheel and experience the ride for
+                                            yourself.</p>
+                                        <a id="home-book-a-test-ride" class="fh-button fh-button--primary" href="./test-drive.html">Book a test
+                                            ride</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fh-nav__item fh-nav__item--static">
+                        <button id="home-service" class="fh-nav__link js-mega-trigger" type="button" aria-expanded="false"
+                            aria-controls="fh-mega-service">Service</button>
+
+                        <div class="fh-mega" id="fh-mega-service" hidden>
+                            <div class="fh-container">
+                                <div class="fh-mega__body">
+                                    <div class="fh-mega__column">
+                                        <p class="fh-menu-label">General Service</p>
+                                        <ul class="fh-menu-list">
+                                            <li><a id="home-service-center" class="fh-menu-link" href="./service-center.html">Service Center</a></li>
+                                            <li><a id="home-outboard-service" class="fh-menu-link" href="./service-outboard.html">Outboard Service</a></li>
+                                            <li><a id="home-i-o-service" class="fh-menu-link" href="./service-sterndrive.html">I/O Service</a></li>
+                                            <li><a id="home-parts" class="fh-menu-link" href="./parts.html">Parts</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="fh-mega__column">
+                                        <p class="fh-menu-label">Care &amp; seasonal</p>
+                                        <ul class="fh-menu-list">
+                                            <li><a id="home-detailing" class="fh-menu-link" href="./service-detailing.html">Detailing</a></li>
+                                            <li><a id="home-mobile-service" class="fh-menu-link" href="./service-mobile.html">Mobile Service</a></li>
+                                            <li><a id="home-winterization" class="fh-menu-link" href="./service-winterization.html">Winterization</a></li>
+                                            <li><a id="home-end-of-season-services" class="fh-menu-link" href="./service-end-of-season.html">End of Season Services</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="fh-menu-card fh-mega__card">
+                                        <p class="fh-eyebrow">Request Service</p>
+                                        <p class="fh-heading-card">Book Service Appointment</p>
+                                        <p class="fh-menu-card__text">Certified Mercury &amp; Yamaha techs</p>
+                                        <a id="home-request-service" class="fh-button fh-button--primary" href="./service-center.html">Request
+                                            Service</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fh-nav__item">
+                        <button id="home-education" class="fh-nav__link js-mega-trigger" type="button" aria-expanded="false"
+                            aria-controls="fh-dropdown-education">Education</button>
+
+                        <div class="fh-dropdown" id="fh-dropdown-education" hidden>
+                            <ul class="fh-menu-list">
+                                <li><a id="home-video-walkthroughs" class="fh-menu-link" href="./video-walkthroughs.html">Video Walkthroughs</a></li>
+                                <li><a id="home-boating-blog" class="fh-menu-link" href="./blog.html" aria-current="page">Boating Blog</a></li>
+                                <li><a id="home-owners-hub" class="fh-menu-link" href="javascript:void(0)">Owners Hub</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="fh-nav__item fh-nav__item--static">
+                        <button id="home-experience" class="fh-nav__link js-mega-trigger" type="button" aria-expanded="false"
+                            aria-controls="fh-mega-experience">Experience</button>
+
+                        <div class="fh-mega" id="fh-mega-experience" hidden>
+                            <div class="fh-container">
+                                <div class="fh-mega__body">
+                                    <div class="fh-mega__column">
+                                        <p class="fh-menu-label">Activities</p>
+                                        <ul class="fh-menu-list">
+                                            <li><a id="home-tournaments" class="fh-menu-link" href="./tournaments.html">Tournaments</a></li>
+                                            <li><a id="home-events" class="fh-menu-link" href="./events.html">Events</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="fh-mega__column">
+                                        <p class="fh-menu-label">The dealership</p>
+                                        <ul class="fh-menu-list">
+                                            <li><a id="home-pro-shop" class="fh-menu-link" href="./pro-shop.html">Pro Shop</a></li>
+                                            <li><a id="home-about-us" class="fh-menu-link" href="./about.html">About Us</a></li>
+                                            <li><a id="home-staff" class="fh-menu-link" href="./staff.html">Staff</a></li>
+                                            <li><a id="home-contact-visit" class="fh-menu-link" href="./contact.html">Contact &amp; Visit</a></li>
+                                            <li><a id="home-employment" class="fh-menu-link" href="./careers.html">Employment</a></li>
+                                            <li><a id="home-faqs" class="fh-menu-link" href="./faq.html">FAQs</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="fh-menu-card fh-mega__card">
+                                        <p class="fh-eyebrow">Tournament</p>
+                                        <p class="fh-heading-small">Foothills Marine Tournament Trail</p>
+                                        <p class="fh-menu-card__text">Eight stops · open format · family friendly</p>
+                                        <a id="home-visit-tournaments" class="fh-button fh-button--primary" href="./tournaments.html">Visit
+                                            Tournaments</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <a id="home-shop-80-boats" class="fh-button fh-button--primary fh-button--compact fh-navbar__cta" href="javascript:void(0)">Shop
+                    80+ Boats</a>
+
+                <button id="home-open-menu" class="fh-burger js-mobile-menu-open" type="button" aria-label="Open menu"
+                    aria-expanded="false" aria-controls="fh-mobile-menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ======= Mobile Menu ======= -->
+    <!-- Below ≤991 the desktop nav is hidden and this drawer replaces it. -->
+    <!-- Keep the links here in sync with the desktop menu panels above.   -->
+    <div class="fh-mobile-menu-overlay js-mobile-menu-overlay"></div>
+    <div class="fh-mobile-menu js-mobile-menu" id="fh-mobile-menu" aria-hidden="true">
+        <div class="fh-mobile-menu__top">
+            <img src="./assets/images/common/logo-foothills-marine.png" alt="Foothills Marine Center" width="110"
+                height="48">
+            <button id="home-close-menu" class="fh-mobile-menu__close js-mobile-menu-close" type="button" aria-label="Close menu">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <nav class="fh-mobile-menu__nav" aria-label="Mobile">
+            <div class="fh-mobile-menu__group">
+                <button id="home-inventory-mobile-menu" class="fh-mobile-menu__toggle js-mobile-sub-toggle" type="button"
+                    aria-expanded="false">Inventory</button>
+                <div class="fh-mobile-menu__sub" hidden>
+                    <a id="home-new-boats-mobile-menu" class="fh-mobile-menu__link" href="javascript:void(0)">New boats</a>
+                    <a id="home-pre-owned-mobile-menu" class="fh-mobile-menu__link" href="javascript:void(0)">Pre-Owned</a>
+                    <a id="home-sell-trade-mobile-menu" class="fh-mobile-menu__link" href="./sell-trade.html">Sell/Trade</a>
+                    <a id="home-financing-mobile-menu" class="fh-mobile-menu__link" href="./financing.html">Financing</a>
+                    <a id="home-book-a-test-ride-mobile-menu" class="fh-mobile-menu__link" href="./test-drive.html">Book a test ride</a>
+                </div>
+            </div>
+            <div class="fh-mobile-menu__group">
+                <button id="home-service-mobile-menu" class="fh-mobile-menu__toggle js-mobile-sub-toggle" type="button"
+                    aria-expanded="false">Service</button>
+                <div class="fh-mobile-menu__sub" hidden>
+                    <a id="home-service-center-mobile-menu" class="fh-mobile-menu__link" href="./service-center.html">Service Center</a>
+                    <a id="home-outboard-service-mobile-menu" class="fh-mobile-menu__link" href="./service-outboard.html">Outboard Service</a>
+                    <a id="home-i-o-service-mobile-menu" class="fh-mobile-menu__link" href="./service-sterndrive.html">I/O Service</a>
+                    <a id="home-parts-mobile-menu" class="fh-mobile-menu__link" href="./parts.html">Parts</a>
+                    <a id="home-detailing-mobile-menu" class="fh-mobile-menu__link" href="./service-detailing.html">Detailing</a>
+                    <a id="home-mobile-service-mobile-menu" class="fh-mobile-menu__link" href="./service-mobile.html">Mobile Service</a>
+                    <a id="home-winterization-mobile-menu" class="fh-mobile-menu__link" href="./service-winterization.html">Winterization</a>
+                    <a id="home-end-of-season-services-mobile-menu" class="fh-mobile-menu__link" href="./service-end-of-season.html">End of Season Services</a>
+                </div>
+            </div>
+            <div class="fh-mobile-menu__group">
+                <button id="home-education-mobile-menu" class="fh-mobile-menu__toggle js-mobile-sub-toggle" type="button"
+                    aria-expanded="false">Education</button>
+                <div class="fh-mobile-menu__sub" hidden>
+                    <a id="home-video-walkthroughs-mobile-menu" class="fh-mobile-menu__link" href="./video-walkthroughs.html">Video Walkthroughs</a>
+                    <a id="home-boating-blog-mobile-menu" class="fh-mobile-menu__link" href="./blog.html" aria-current="page">Boating Blog</a>
+                    <a id="home-owners-hub-mobile-menu" class="fh-mobile-menu__link" href="javascript:void(0)">Owners Hub</a>
+                </div>
+            </div>
+            <div class="fh-mobile-menu__group">
+                <button id="home-experience-mobile-menu" class="fh-mobile-menu__toggle js-mobile-sub-toggle" type="button"
+                    aria-expanded="false">Experience</button>
+                <div class="fh-mobile-menu__sub" hidden>
+                    <a id="home-tournaments-mobile-menu" class="fh-mobile-menu__link" href="./tournaments.html">Tournaments</a>
+                    <a id="home-events-mobile-menu" class="fh-mobile-menu__link" href="./events.html">Events</a>
+                    <a id="home-pro-shop-mobile-menu" class="fh-mobile-menu__link" href="./pro-shop.html">Pro Shop</a>
+                    <a id="home-about-us-mobile-menu" class="fh-mobile-menu__link" href="./about.html">About Us</a>
+                    <a id="home-staff-mobile-menu" class="fh-mobile-menu__link" href="./staff.html">Staff</a>
+                    <a id="home-contact-visit-mobile-menu" class="fh-mobile-menu__link" href="./contact.html">Contact &amp; Visit</a>
+                    <a id="home-employment-mobile-menu" class="fh-mobile-menu__link" href="./careers.html">Employment</a>
+                    <a id="home-faqs-mobile-menu" class="fh-mobile-menu__link" href="./faq.html">FAQs</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="fh-mobile-menu__actions">
+            <a id="home-shop-80-boats-2" class="fh-button fh-button--primary" href="javascript:void(0)">Shop 80+ Boats</a>
+            <a id="home-morganton-828-439-9022" class="fh-mobile-menu__phone" href="tel:+18284399022">Morganton · 828.439.9022</a>
+            <a id="home-mooresville-704-696-8930" class="fh-mobile-menu__phone" href="tel:+17046968930">Mooresville · 704.696.8930</a>
+        </div>
+    </div>
+
+    <!-- ======= Blog Post page starts here ======= -->
+
+    <!-- ---- article intro ---- -->
+    <section class="fh-post-intro">
+        <div class="fh-container fh-post-intro__inner">
+            <p class="fh-post-intro__tag">Navigation basics</p>
+            <h1 class="fh-post-intro__title">A beginner’s guide to reading buoys, markers, and channel signs</h1>
+            <p class="fh-post-intro__lead">Learn the most common aids to navigation, how to identify safe passage, and when to slow down before you enter a new waterway.</p>
+            <p class="fh-post-intro__details"><time datetime="2026-09-08">September 8, 2026</time> <span class="fh-post-intro__dot" aria-hidden="true"></span> 6 min read</p>
+        </div>
+    </section>
+
+    <div class="fh-media fh-post-photo">
+        <img class="fh-crop-post-photo" src="./assets/images/common/article-boat-carving-turn.jpg" alt="Boat carving a wide turn past channel markers on an autumn lake" width="1248" height="832">
+    </div>
+
+    <!-- ---- article body ---- -->
+    <section class="fh-post">
+        <div class="fh-container fh-container--wide fh-post__layout">
+            <aside class="fh-post__share" aria-label="Share this article">
+                <p class="fh-post__share-label">Share</p>
+                <div class="fh-post__share-buttons">
+                    <a class="fh-post__share-button" href="javascript:void(0)" aria-label="Share on Facebook">f</a>
+                    <a class="fh-post__share-button" href="javascript:void(0)" aria-label="Share on LinkedIn">in</a>
+                    <button class="fh-post__share-button fh-post__share-button--copy js-copy-link" type="button" aria-label="Copy link to this article"></button>
+                </div>
+            </aside>
+
+            <article class="fh-post__story">
+                <p class="fh-post__text">Aids to navigation are the road signs of the water. Once you understand their colors, shapes, and numbers, they turn an unfamiliar channel into a clear, readable route.</p>
+
+                <h2 class="fh-post__heading" id="fh-post-red-green">Start with red and green</h2>
+                <p class="fh-post__text">Lateral markers show the edges of a navigable channel. When returning from open water or traveling upstream, keep red markers on your right and green markers on your left. Boaters remember it as “red, right, returning.”</p>
+
+                <blockquote class="fh-post__rule">
+                    <p class="fh-post__rule-label">The rule to remember</p>
+                    <p class="fh-post__rule-quote">“Red, right, returning.” Keep red markers to starboard as you come in from open water.</p>
+                </blockquote>
+
+                <h2 class="fh-post__heading" id="fh-post-shape-number">Read the shape and number</h2>
+                <p class="fh-post__text">Red markers are usually triangular and carry even numbers. Green markers are square and carry odd numbers. The numbers increase as you move inland, helping you confirm both your direction and position.</p>
+
+                <ul class="fh-post__tips" id="fh-post-quick-guide">
+                    <li class="fh-post__tip">
+                        <h3 class="fh-post__tip-title">Red nun buoys</h3>
+                        <p class="fh-post__tip-text">Triangular top, even number. Keep to starboard when returning.</p>
+                    </li>
+                    <li class="fh-post__tip">
+                        <h3 class="fh-post__tip-title">Green can buoys</h3>
+                        <p class="fh-post__tip-text">Square or flat top, odd number. Keep to port when returning.</p>
+                    </li>
+                    <li class="fh-post__tip">
+                        <h3 class="fh-post__tip-title">Red and green markers</h3>
+                        <p class="fh-post__tip-text">The top color marks the preferred channel at a junction.</p>
+                    </li>
+                </ul>
+
+                <h2 class="fh-post__heading" id="fh-post-look-ahead">Slow down and look ahead</h2>
+                <p class="fh-post__text">Markers can shift with weather and water levels, so never rely on one sign alone. Match what you see with your chart, watch your depth, and reduce speed whenever the channel narrows or traffic builds.</p>
+
+                <p class="fh-post__note">Local conditions always come first. If a marker looks damaged, missing, or out of position, give it extra room and report it to the local authority.</p>
+            </article>
+
+            <nav class="fh-post__contents" aria-label="In this guide">
+                <p class="fh-post__contents-title">In this guide</p>
+                <a class="fh-post__contents-link" href="#fh-post-red-green">Red and green</a>
+                <a class="fh-post__contents-link" href="#fh-post-shape-number">Shape and number</a>
+                <a class="fh-post__contents-link" href="#fh-post-quick-guide">Quick guide</a>
+                <a class="fh-post__contents-link" href="#fh-post-look-ahead">Look ahead</a>
+            </nav>
+        </div>
+    </section>
+
+    <!-- ---- related posts ---- -->
+    <section class="fh-post-related">
+        <div class="fh-container fh-container--wide">
+            <h2 class="fh-heading-card fh-post-related__title">You might also like</h2>
+
+            <div class="row fh-row-gap-40 fh-blog__list">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="fh-article-card">
+                        <div class="fh-media fh-article-card__photo">
+                            <img src="./assets/images/common/article-captain-at-helm.jpg" alt="Captain at the helm of a boat" width="1344" height="768" loading="lazy">
+                        </div>
+                        <div class="fh-article-card__body">
+                            <p class="fh-article-card__category">Weather reading</p>
+                            <h3 class="fh-article-card__title"><a href="./blog-post.html">How to read lake weather before you leave the dock</a></h3>
+                            <p class="fh-article-card__excerpt">Learn the signs of changing wind, waves, and storms so you can make safer decisions before you head out.</p>
+                            <time class="fh-article-card__date" datetime="2026-07-18">July 18, 2026</time>
+                            <a class="fh-article-card__more" href="./blog-post.html">Read article</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="fh-article-card">
+                        <div class="fh-media fh-article-card__photo">
+                            <img src="./assets/images/common/article-family-on-bowrider.jpg" alt="Family cruising on a bowrider" width="1344" height="768" loading="lazy">
+                        </div>
+                        <div class="fh-article-card__body">
+                            <p class="fh-article-card__category">Anchoring techniques</p>
+                            <h3 class="fh-article-card__title"><a href="./blog-post.html">A step-by-step guide to anchoring safely in open water</a></h3>
+                            <p class="fh-article-card__excerpt">Learn how to choose the right spot, set the hook, and secure your boat so you can relax while you’re stopped.</p>
+                            <time class="fh-article-card__date" datetime="2026-07-02">July 2, 2026</time>
+                            <a class="fh-article-card__more" href="./blog-post.html">Read article</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="fh-article-card">
+                        <div class="fh-media fh-article-card__photo">
+                            <img src="./assets/images/common/article-boat-carving-turn.jpg" alt="Boat carving a turn on a calm lake" width="1248" height="832" loading="lazy">
+                        </div>
+                        <div class="fh-article-card__body">
+                            <p class="fh-article-card__category">Docking skills</p>
+                            <h3 class="fh-article-card__title"><a href="./blog-post.html">Docking basics: how to approach, pivot, and secure your boat</a></h3>
+                            <p class="fh-article-card__excerpt">Practice the right speed, angle, and communication so you can dock with confidence in calm or busy conditions.</p>
+                            <time class="fh-article-card__date" datetime="2026-09-12">September 12, 2026</time>
+                            <a class="fh-article-card__more" href="./blog-post.html">Read article</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Blog Post page ends here ======= -->
+
+    <!-- ======= Footer ======= -->
+    <footer class="fh-footer">
+        <div class="fh-container">
+
+            <!-- ---- newsletter ---- -->
+            <div class="fh-newsletter">
+                <div class="fh-newsletter__intro">
+                    <h2 class="fh-heading-medium fh-newsletter__title">Stay in the <span
+                            class="fh-newsletter__accent">Fast Lane</span></h2>
+                    <p class="fh-newsletter__lead">Get monthly detailing secrets, pro maintenance tricks, and priority
+                        access to our exclusive seasonal price drops. No spam, just pure shine.</p>
+                </div>
+
+                <div class="fh-newsletter__signup">
+                    <form class="fh-newsletter__form js-form" action="javascript:void(0)"
+                        data-success-message="Thanks — you're on the list.">
+                        <label class="sr-only" for="fh-newsletter-email">Email address</label>
+                        <img class="fh-newsletter__icon" src="./assets/images/common/icon-mail.svg" alt="" width="20"
+                            height="20">
+                        <input class="fh-newsletter__input" type="email" id="fh-newsletter-email" name="email"
+                            placeholder="Enter your email address..." autocomplete="email" required>
+                        <button id="home-subscribe" class="fh-button fh-button--primary fh-newsletter__button" type="submit">Subscribe
+                            <img src="./assets/images/common/icon-arrow-right.svg" alt="" width="16"
+                                height="16"></button>
+                        <p class="fh-form-message fh-newsletter__message js-form-message" role="status" hidden></p>
+                    </form>
+
+                    <div class="fh-newsletter__trust">
+                        <span class="fh-newsletter__avatars">
+                            <img src="./assets/images/common/avatar-subscriber-1.png" alt="" width="28" height="28" loading="lazy">
+                            <img src="./assets/images/common/avatar-subscriber-2.png" alt="" width="28" height="28" loading="lazy">
+                            <img src="./assets/images/common/avatar-subscriber-3.png" alt="" width="28" height="28" loading="lazy">
+                        </span>
+                        <p class="fh-newsletter__count">Join over <strong>800+</strong> boating enthusiasts already
+                            subscribed</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ---- footer links ---- -->
+            <div class="fh-footer__main">
+                <div class="fh-footer__brand">
+                    <a id="home-foothills-marine-center-2" href="./home.html">
+                        <img class="fh-footer__logo" src="./assets/images/common/logo-foothills-marine.png"
+                            alt="Foothills Marine Center" width="240" height="105" loading="lazy">
+                    </a>
+                    <p class="fh-footer__about">Full-service marine dealership serving anglers and boating families
+                        across the Carolinas since 1993.</p>
+                    <a id="home-morganton-828-439-9022-footer" class="fh-footer__phone" href="tel:+18284399022">Morganton · 828.439.9022</a>
+                    <a id="home-mooresville-704-696-8930-footer" class="fh-footer__phone" href="tel:+17046968930">Mooresville · 704.696.8930</a>
+                </div>
+
+                <div class="fh-footer__column">
+                    <p class="fh-footer__heading">Inventory</p>
+                    <ul class="fh-footer__list">
+                        <li><a id="home-new" class="fh-footer__link" href="javascript:void(0)">New</a></li>
+                        <li><a id="home-pre-owned-footer" class="fh-footer__link" href="javascript:void(0)">Pre-Owned</a></li>
+                        <li><a id="home-clearance" class="fh-footer__link" href="javascript:void(0)">Clearance</a></li>
+                        <li><a id="home-sell-trade-footer" class="fh-footer__link" href="./sell-trade.html">Sell / Trade</a></li>
+                        <li><a id="home-financing-footer" class="fh-footer__link" href="./financing.html">Financing</a></li>
+                    </ul>
+                </div>
+
+                <div class="fh-footer__column">
+                    <p class="fh-footer__heading">Service</p>
+                    <ul class="fh-footer__list">
+                        <li><a id="home-service-center-footer" class="fh-footer__link" href="./service-center.html">Service Center</a></li>
+                        <li><a id="home-detailing-footer" class="fh-footer__link" href="./service-detailing.html">Detailing</a></li>
+                        <li><a id="home-mobile-service-footer" class="fh-footer__link" href="./service-mobile.html">Mobile Service</a></li>
+                        <li><a id="home-winterization-footer" class="fh-footer__link" href="./service-winterization.html">Winterization</a></li>
+                        <li><a id="home-parts-footer" class="fh-footer__link" href="./parts.html">Parts</a></li>
+                    </ul>
+                </div>
+
+                <div class="fh-footer__column">
+                    <p class="fh-footer__heading">Experience</p>
+                    <ul class="fh-footer__list">
+                        <li><a id="home-tournaments-footer" class="fh-footer__link" href="./tournaments.html">Tournaments</a></li>
+                        <li><a id="home-events-footer" class="fh-footer__link" href="./events.html">Events</a></li>
+                        <li><a id="home-about-us-footer" class="fh-footer__link" href="./about.html">About Us</a></li>
+                        <li><a id="home-staff-footer" class="fh-footer__link" href="./staff.html">Staff</a></li>
+                        <li><a id="home-employment-footer" class="fh-footer__link" href="./careers.html">Employment</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="fh-footer__bottom">
+                <p class="fh-footer__copyright">© 2026 Foothills Marine Center · Morganton &amp; Mooresville, NC</p>
+                <div class="fh-footer__legal">
+                    <a id="home-privacy" class="fh-footer__legal-link" href="javascript:void(0)">Privacy</a>
+                    <a id="home-terms" class="fh-footer__legal-link" href="javascript:void(0)">Terms</a>
+                    <a id="home-sitemap" class="fh-footer__legal-link" href="javascript:void(0)">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ======= Script Dependencies ======= -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
